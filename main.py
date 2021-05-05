@@ -56,7 +56,7 @@ if __name__ == '__main__':
                 break
             if img is None:
                 break
-        
+        #
         flip = cv2.flip(img,1)
         cv2.imshow("Camera",flip)
         k = cv2.waitKey(10)
